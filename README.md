@@ -117,6 +117,10 @@ The pipeline was evaluated against all 5 official benchmark questions from Proje
 | **Q4** | What GPU cluster configuration (number and model of GPUs) and total training duration, in days, were required to train the 13-billion-parameter model? | 128 NVIDIA H100 GPUs (80GB SXM5), 400 Gbps InfiniBand, 18.5 days | `Cluster configuration: 128 NVIDIA H100 (80GB SXM5) GPUs interconnected via 400 Gbps InfiniBand; total training duration: 18.5 days.` | `['page_45_chunk_0']` (Page 45) | **PASSED** |
 | **Q5** | What was the worldwide box-office revenue of the film Oppenheimer in 2023? | Out-of-domain knowledge not present in document. Must reject. | `[not found]` | `[]` | **PASSED** |
 
+### Benchmark Execution Screenshot
+
+![Benchmark Execution Output](output_screenshot.png)
+
 ---
 
 ## Hallucination Prevention & Rejection Protocol
